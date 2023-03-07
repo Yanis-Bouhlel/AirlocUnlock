@@ -8,49 +8,52 @@
 #define NUM_LEDS 10
 #define DATA_PIN 2
 
-CRGB leds[NUM_LEDS];
+  Adafruit_NeoPixel pixels(NUM_LEDS, DATA_PIN, NEO_GRB + NEO_KHZ800);
 
 Led::Led(int LedPin) {
     this->Pin = LedPin ;
     PinMode() ; 
+    this->Light = false ;
 }
 
 void Led::PinMode() {
-    FastLED.addLeds<NEOPIXEL, DATA_PIN>(leds, NUM_LEDS) ; 
+    pixels.begin();
 }
 
 void Led::White() {
-    for(int i = 0 ; i < 10; i++)
-  {
-    leds[i] = CRGB(255,255,255);
-    FastLED.show();
+pixels.begin();
+for (int i = 0; i < NUM_LEDS; i++) {
+    pixels.setPixelColor(i, pixels.Color(255, 255, 255));
+    pixels.show();
+    
   }
     this->Light = true ;
 }
 
 void Led::Red() {
-    for(int i = 0 ; i < 10; i++)
-  {
-    leds[i] = CRGB(255,0,0);
-    FastLED.show();
+    pixels.begin();
+    for (int i = 0; i < NUM_LEDS; i++) {
+    pixels.setPixelColor(i, pixels.Color(255, 0, 0));
+    pixels.show();
+    
   }
     this->Light = true ;
 }
 
 void Led::Green() {
-    for(int i = 0 ; i < 10; i++)
-  {
-    leds[i] = CRGB(0,255,0);
-    FastLED.show();
+    pixels.begin();
+    for (int i = 0; i < NUM_LEDS; i++) {
+    pixels.setPixelColor(i, pixels.Color(0, 255, 0));
+    pixels.show();
+    
   }
     this->Light = true ;
 }
 
 void Led::Off() {
-    for(int i = 0 ; i < 9; i++)
-    {
-        leds[i] = CRGB(0,0,0);
-        FastLED.show();
-    }    
-    this->Light = false ;
+    pixels.begin();
+    for (int i = 0; i < NUM_LEDS; i++) {
+    pixels.setPixelColor(i, pixels.Color(0, 0, 0));
+    pixels.show();
+  }
 }

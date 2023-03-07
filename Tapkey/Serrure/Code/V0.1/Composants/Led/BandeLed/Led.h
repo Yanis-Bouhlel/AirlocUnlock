@@ -4,7 +4,7 @@
 
 #ifndef LED_LED_H
 #define LED_LED_H
-#include <FastLED.h>
+#include <Adafruit_NeoPixel.h>
 
 class Led {
     protected:
