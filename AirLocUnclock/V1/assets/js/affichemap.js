@@ -7,6 +7,7 @@ function ShowMap() {
         map.style.display = "none";
         main.style.display = ""
         BtnAffiche.innerText = "Afficher la carte"
+
     }
     else{
         BtnAffiche.style.fontWeight = "900";
@@ -15,10 +16,8 @@ function ShowMap() {
         map.style.marginTop = "10px" 
         BtnAffiche.style.marginTop = "10px" 
         BtnAffiche.innerText = "Retirer la carte"
-    }
- 
-    
 
-    
+    }
+         
 }
 

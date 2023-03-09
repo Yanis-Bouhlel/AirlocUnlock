@@ -1,23 +1,24 @@
 
 //const ApiUrl = 'https://5f220e36-3655-41df-9e6d-bdddd1f7fd4c.mock.pstmn.io/housing';
 
-        $.ajax({
+       /* $.ajax({
 
             url: "assets/js/data.json",
             method: "GET",
-            data: id,
+            DataType : "JSON" ,
+            //data: id,
             success: function () {
-                console.log(id);
+                console.log("etein");
             }
-        })
+        })*/
     
 
-récupAPI(ApiUrl);
+récupAPI("assets/js/data.json");
 
 function récupAPI(url) {
     fetch(url).then(res => res.json()).then(data => {
             affichage(data);
-            console.log(data);
+            console.log("eteint");
     })
 }
 
