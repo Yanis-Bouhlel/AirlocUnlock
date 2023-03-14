@@ -2,9 +2,419 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e8d535c4-f8b7-48d0-92fe-b2251236ef2d" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/AirLocUnclock/V2/V2.0.1/assets/js/tesst.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AirLocUnclock/V2/V2.0.1/test.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AirLocUnclock/Modif/AIRLOCKUNLOCK .bsdesign" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AirLocUnclock/V1/Inscription.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AirLocUnclock/V1/Login.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AirLocUnclock/V1/MettreEnLoc.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AirLocUnclock/V1/assets/bootstrap/css/bootstrap.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AirLocUnclock/V1/assets/bootstrap/js/bootstrap.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AirLocUnclock/V1/assets/css/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AirLocUnclock/V1/assets/fonts/FontAwesome.otf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AirLocUnclock/V1/assets/fonts/Simple-Line-Icons.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AirLocUnclock/V1/assets/fonts/Simple-Line-Icons.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AirLocUnclock/V1/assets/fonts/Simple-Line-Icons.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AirLocUnclock/V1/assets/fonts/Simple-Line-Icons.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AirLocUnclock/V1/assets/fonts/Simple-Line-Icons.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AirLocUnclock/V1/assets/fonts/fa-brands-400.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AirLocUnclock/V1/assets/fonts/fa-brands-400.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AirLocUnclock/V1/assets/fonts/fa-brands-400.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AirLocUnclock/V1/assets/fonts/fa-brands-400.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AirLocUnclock/V1/assets/fonts/fa-brands-400.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AirLocUnclock/V1/assets/fonts/fa-regular-400.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AirLocUnclock/V1/assets/fonts/fa-regular-400.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AirLocUnclock/V1/assets/fonts/fa-regular-400.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AirLocUnclock/V1/assets/fonts/fa-regular-400.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AirLocUnclock/V1/assets/fonts/fa-regular-400.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AirLocUnclock/V1/assets/fonts/fa-solid-900.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AirLocUnclock/V1/assets/fonts/fa-solid-900.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AirLocUnclock/V1/assets/fonts/fa-solid-900.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AirLocUnclock/V1/assets/fonts/fa-solid-900.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AirLocUnclock/V1/assets/fonts/fa-solid-900.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AirLocUnclock/V1/assets/fonts/font-awesome.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AirLocUnclock/V1/assets/fonts/fontawesome-all.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AirLocUnclock/V1/assets/fonts/fontawesome-webfont.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AirLocUnclock/V1/assets/fonts/fontawesome-webfont.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AirLocUnclock/V1/assets/fonts/fontawesome-webfont.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AirLocUnclock/V1/assets/fonts/fontawesome-webfont.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AirLocUnclock/V1/assets/fonts/fontawesome-webfont.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AirLocUnclock/V1/assets/fonts/fontawesome5-overrides.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AirLocUnclock/V1/assets/fonts/simple-line-icons.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AirLocUnclock/V1/assets/img/AvcVue.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AirLocUnclock/V1/assets/img/Filter/AvcVue-removebg-preview.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AirLocUnclock/V1/assets/img/Filter/Campagne-removebg-preview.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AirLocUnclock/V1/assets/img/Filter/bdmer-removebg-preview.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AirLocUnclock/V1/assets/img/Filter/luxe-removebg-preview (1).png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AirLocUnclock/V1/assets/img/Filter/luxe-removebg-preview.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AirLocUnclock/V1/assets/img/Filter/nature-removebg-preview.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AirLocUnclock/V1/assets/img/Filter/pieddesPistes-removebg-preview.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AirLocUnclock/V1/assets/img/Filter/piscine-removebg-preview.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AirLocUnclock/V1/assets/img/Filter/tiny-removebg-preview.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AirLocUnclock/V1/assets/img/avatars/Capture007.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AirLocUnclock/V1/assets/img/avatars/avatar1.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AirLocUnclock/V1/assets/img/avatars/avatar1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AirLocUnclock/V1/assets/img/avatars/avatar2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AirLocUnclock/V1/assets/img/avatars/avatar3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AirLocUnclock/V1/assets/img/avatars/png-transparent-user-profile-computer-icons-login-user-avatars-thumbnail.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AirLocUnclock/V1/assets/img/bdmer.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AirLocUnclock/V1/assets/img/brands/instacart.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AirLocUnclock/V1/assets/img/brands/kickstarter.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AirLocUnclock/V1/assets/img/brands/lyft.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AirLocUnclock/V1/assets/img/brands/pinterest.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AirLocUnclock/V1/assets/img/brands/shopify.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AirLocUnclock/V1/assets/img/brands/twitter.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AirLocUnclock/V1/assets/img/portfolio/1-full.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AirLocUnclock/V1/assets/img/portfolio/1-thumbnail.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AirLocUnclock/V1/assets/img/portfolio/2-thumbnail.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AirLocUnclock/V1/assets/img/portfolio/3-thumbnail.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AirLocUnclock/V1/assets/img/portfolio/4-thumbnail.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AirLocUnclock/V1/assets/img/portfolio/5-thumbnail.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AirLocUnclock/V1/assets/img/portfolio/6-thumbnail.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AirLocUnclock/V1/assets/img/products/1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AirLocUnclock/V1/assets/img/products/2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AirLocUnclock/V1/assets/img/products/2c848fcd-7fb0-4533-bb0e-a6970487afc8 (1).jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AirLocUnclock/V1/assets/img/products/2c848fcd-7fb0-4533-bb0e-a6970487afc8.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AirLocUnclock/V1/assets/img/products/2c848fcd-7fb0-4533-bb0e-a6970487afc8.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AirLocUnclock/V1/assets/img/products/3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AirLocUnclock/V1/assets/img/team/avatar2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AirLocUnclock/V1/assets/img/team/avatar4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AirLocUnclock/V1/assets/img/team/avatar5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AirLocUnclock/V1/assets/js/Test.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AirLocUnclock/V1/assets/js/VerifCompte.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AirLocUnclock/V1/assets/js/affichemap.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AirLocUnclock/V1/assets/js/bold-and-bright.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AirLocUnclock/V1/assets/js/data.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AirLocUnclock/V1/assets/js/jquery.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AirLocUnclock/V1/assets/js/script.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AirLocUnclock/V1/contacts.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AirLocUnclock/V1/index-2.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AirLocUnclock/V1/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AirLocUnclock/V1/pricing.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AirLocUnclock/V1/projects.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AirLocUnclock/V1/services.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AirLocUnclock/V2/Inscription.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AirLocUnclock/V2/Login.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AirLocUnclock/V2/MettreEnLoc.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AirLocUnclock/V2/V2.0.1/Inscription.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AirLocUnclock/V2/V2.0.1/Login.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AirLocUnclock/V2/V2.0.1/MettreEnLoc.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AirLocUnclock/V2/V2.0.1/assets/bootstrap/css/bootstrap.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AirLocUnclock/V2/V2.0.1/assets/bootstrap/js/bootstrap.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AirLocUnclock/V2/V2.0.1/assets/css/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AirLocUnclock/V2/V2.0.1/assets/fonts/FontAwesome.otf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AirLocUnclock/V2/V2.0.1/assets/fonts/Simple-Line-Icons.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AirLocUnclock/V2/V2.0.1/assets/fonts/Simple-Line-Icons.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AirLocUnclock/V2/V2.0.1/assets/fonts/Simple-Line-Icons.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AirLocUnclock/V2/V2.0.1/assets/fonts/Simple-Line-Icons.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AirLocUnclock/V2/V2.0.1/assets/fonts/Simple-Line-Icons.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AirLocUnclock/V2/V2.0.1/assets/fonts/fa-brands-400.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AirLocUnclock/V2/V2.0.1/assets/fonts/fa-brands-400.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AirLocUnclock/V2/V2.0.1/assets/fonts/fa-brands-400.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AirLocUnclock/V2/V2.0.1/assets/fonts/fa-brands-400.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AirLocUnclock/V2/V2.0.1/assets/fonts/fa-brands-400.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AirLocUnclock/V2/V2.0.1/assets/fonts/fa-regular-400.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AirLocUnclock/V2/V2.0.1/assets/fonts/fa-regular-400.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AirLocUnclock/V2/V2.0.1/assets/fonts/fa-regular-400.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AirLocUnclock/V2/V2.0.1/assets/fonts/fa-regular-400.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AirLocUnclock/V2/V2.0.1/assets/fonts/fa-regular-400.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AirLocUnclock/V2/V2.0.1/assets/fonts/fa-solid-900.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AirLocUnclock/V2/V2.0.1/assets/fonts/fa-solid-900.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AirLocUnclock/V2/V2.0.1/assets/fonts/fa-solid-900.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AirLocUnclock/V2/V2.0.1/assets/fonts/fa-solid-900.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AirLocUnclock/V2/V2.0.1/assets/fonts/fa-solid-900.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AirLocUnclock/V2/V2.0.1/assets/fonts/font-awesome.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AirLocUnclock/V2/V2.0.1/assets/fonts/fontawesome-all.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AirLocUnclock/V2/V2.0.1/assets/fonts/fontawesome-webfont.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AirLocUnclock/V2/V2.0.1/assets/fonts/fontawesome-webfont.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AirLocUnclock/V2/V2.0.1/assets/fonts/fontawesome-webfont.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AirLocUnclock/V2/V2.0.1/assets/fonts/fontawesome-webfont.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AirLocUnclock/V2/V2.0.1/assets/fonts/fontawesome-webfont.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AirLocUnclock/V2/V2.0.1/assets/fonts/fontawesome5-overrides.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AirLocUnclock/V2/V2.0.1/assets/fonts/simple-line-icons.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AirLocUnclock/V2/V2.0.1/assets/img/AvcVue.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AirLocUnclock/V2/V2.0.1/assets/img/Filter/AvcVue-removebg-preview.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AirLocUnclock/V2/V2.0.1/assets/img/Filter/Campagne-removebg-preview.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AirLocUnclock/V2/V2.0.1/assets/img/Filter/bdmer-removebg-preview.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AirLocUnclock/V2/V2.0.1/assets/img/Filter/luxe-removebg-preview (1).png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AirLocUnclock/V2/V2.0.1/assets/img/Filter/luxe-removebg-preview.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AirLocUnclock/V2/V2.0.1/assets/img/Filter/nature-removebg-preview.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AirLocUnclock/V2/V2.0.1/assets/img/Filter/pieddesPistes-removebg-preview.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AirLocUnclock/V2/V2.0.1/assets/img/Filter/piscine-removebg-preview.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AirLocUnclock/V2/V2.0.1/assets/img/Filter/tiny-removebg-preview.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AirLocUnclock/V2/V2.0.1/assets/img/avatars/Capture007.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AirLocUnclock/V2/V2.0.1/assets/img/avatars/avatar1.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AirLocUnclock/V2/V2.0.1/assets/img/avatars/avatar1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AirLocUnclock/V2/V2.0.1/assets/img/avatars/avatar2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AirLocUnclock/V2/V2.0.1/assets/img/avatars/avatar3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AirLocUnclock/V2/V2.0.1/assets/img/avatars/png-transparent-user-profile-computer-icons-login-user-avatars-thumbnail.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AirLocUnclock/V2/V2.0.1/assets/img/bdmer.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AirLocUnclock/V2/V2.0.1/assets/img/brands/instacart.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AirLocUnclock/V2/V2.0.1/assets/img/brands/kickstarter.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AirLocUnclock/V2/V2.0.1/assets/img/brands/lyft.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AirLocUnclock/V2/V2.0.1/assets/img/brands/pinterest.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AirLocUnclock/V2/V2.0.1/assets/img/brands/shopify.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AirLocUnclock/V2/V2.0.1/assets/img/brands/twitter.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AirLocUnclock/V2/V2.0.1/assets/img/portfolio/1-full.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AirLocUnclock/V2/V2.0.1/assets/img/portfolio/1-thumbnail.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AirLocUnclock/V2/V2.0.1/assets/img/portfolio/2-thumbnail.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AirLocUnclock/V2/V2.0.1/assets/img/portfolio/3-thumbnail.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AirLocUnclock/V2/V2.0.1/assets/img/portfolio/4-thumbnail.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AirLocUnclock/V2/V2.0.1/assets/img/portfolio/5-thumbnail.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AirLocUnclock/V2/V2.0.1/assets/img/portfolio/6-thumbnail.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AirLocUnclock/V2/V2.0.1/assets/img/products/1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AirLocUnclock/V2/V2.0.1/assets/img/products/2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AirLocUnclock/V2/V2.0.1/assets/img/products/2c848fcd-7fb0-4533-bb0e-a6970487afc8 (1).jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AirLocUnclock/V2/V2.0.1/assets/img/products/2c848fcd-7fb0-4533-bb0e-a6970487afc8.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AirLocUnclock/V2/V2.0.1/assets/img/products/2c848fcd-7fb0-4533-bb0e-a6970487afc8.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AirLocUnclock/V2/V2.0.1/assets/img/products/3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AirLocUnclock/V2/V2.0.1/assets/img/team/avatar2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AirLocUnclock/V2/V2.0.1/assets/img/team/avatar4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AirLocUnclock/V2/V2.0.1/assets/img/team/avatar5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AirLocUnclock/V2/V2.0.1/assets/js/Test.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AirLocUnclock/V2/V2.0.1/assets/js/VerifCompte.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AirLocUnclock/V2/V2.0.1/assets/js/affichemap.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AirLocUnclock/V2/V2.0.1/assets/js/bold-and-bright.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AirLocUnclock/V2/V2.0.1/assets/js/data.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AirLocUnclock/V2/V2.0.1/assets/js/jquery.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AirLocUnclock/V2/V2.0.1/assets/js/script.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AirLocUnclock/V2/V2.0.1/assets/js/tesst.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AirLocUnclock/V2/V2.0.1/contacts.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AirLocUnclock/V2/V2.0.1/index-2.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AirLocUnclock/V2/V2.0.1/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AirLocUnclock/V2/V2.0.1/pricing.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AirLocUnclock/V2/V2.0.1/projects.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AirLocUnclock/V2/V2.0.1/services.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AirLocUnclock/V2/V2.0.1/test.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AirLocUnclock/V2/assets/bootstrap/css/bootstrap.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AirLocUnclock/V2/assets/bootstrap/js/bootstrap.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AirLocUnclock/V2/assets/css/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AirLocUnclock/V2/assets/fonts/FontAwesome.otf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AirLocUnclock/V2/assets/fonts/Simple-Line-Icons.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AirLocUnclock/V2/assets/fonts/Simple-Line-Icons.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AirLocUnclock/V2/assets/fonts/Simple-Line-Icons.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AirLocUnclock/V2/assets/fonts/Simple-Line-Icons.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AirLocUnclock/V2/assets/fonts/Simple-Line-Icons.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AirLocUnclock/V2/assets/fonts/fa-brands-400.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AirLocUnclock/V2/assets/fonts/fa-brands-400.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AirLocUnclock/V2/assets/fonts/fa-brands-400.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AirLocUnclock/V2/assets/fonts/fa-brands-400.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AirLocUnclock/V2/assets/fonts/fa-brands-400.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AirLocUnclock/V2/assets/fonts/fa-regular-400.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AirLocUnclock/V2/assets/fonts/fa-regular-400.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AirLocUnclock/V2/assets/fonts/fa-regular-400.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AirLocUnclock/V2/assets/fonts/fa-regular-400.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AirLocUnclock/V2/assets/fonts/fa-regular-400.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AirLocUnclock/V2/assets/fonts/fa-solid-900.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AirLocUnclock/V2/assets/fonts/fa-solid-900.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AirLocUnclock/V2/assets/fonts/fa-solid-900.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AirLocUnclock/V2/assets/fonts/fa-solid-900.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AirLocUnclock/V2/assets/fonts/fa-solid-900.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AirLocUnclock/V2/assets/fonts/font-awesome.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AirLocUnclock/V2/assets/fonts/fontawesome-all.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AirLocUnclock/V2/assets/fonts/fontawesome-webfont.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AirLocUnclock/V2/assets/fonts/fontawesome-webfont.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AirLocUnclock/V2/assets/fonts/fontawesome-webfont.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AirLocUnclock/V2/assets/fonts/fontawesome-webfont.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AirLocUnclock/V2/assets/fonts/fontawesome-webfont.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AirLocUnclock/V2/assets/fonts/fontawesome5-overrides.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AirLocUnclock/V2/assets/fonts/simple-line-icons.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AirLocUnclock/V2/assets/img/AvcVue.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AirLocUnclock/V2/assets/img/Filter/AvcVue-removebg-preview.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AirLocUnclock/V2/assets/img/Filter/Campagne-removebg-preview.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AirLocUnclock/V2/assets/img/Filter/bdmer-removebg-preview.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AirLocUnclock/V2/assets/img/Filter/luxe-removebg-preview (1).png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AirLocUnclock/V2/assets/img/Filter/luxe-removebg-preview.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AirLocUnclock/V2/assets/img/Filter/nature-removebg-preview.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AirLocUnclock/V2/assets/img/Filter/pieddesPistes-removebg-preview.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AirLocUnclock/V2/assets/img/Filter/piscine-removebg-preview.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AirLocUnclock/V2/assets/img/Filter/tiny-removebg-preview.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AirLocUnclock/V2/assets/img/avatars/Capture007.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AirLocUnclock/V2/assets/img/avatars/avatar1.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AirLocUnclock/V2/assets/img/avatars/avatar1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AirLocUnclock/V2/assets/img/avatars/avatar2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AirLocUnclock/V2/assets/img/avatars/avatar3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AirLocUnclock/V2/assets/img/avatars/png-transparent-user-profile-computer-icons-login-user-avatars-thumbnail.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AirLocUnclock/V2/assets/img/bdmer.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AirLocUnclock/V2/assets/img/brands/instacart.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AirLocUnclock/V2/assets/img/brands/kickstarter.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AirLocUnclock/V2/assets/img/brands/lyft.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AirLocUnclock/V2/assets/img/brands/pinterest.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AirLocUnclock/V2/assets/img/brands/shopify.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AirLocUnclock/V2/assets/img/brands/twitter.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AirLocUnclock/V2/assets/img/portfolio/1-full.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AirLocUnclock/V2/assets/img/portfolio/1-thumbnail.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AirLocUnclock/V2/assets/img/portfolio/2-thumbnail.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AirLocUnclock/V2/assets/img/portfolio/3-thumbnail.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AirLocUnclock/V2/assets/img/portfolio/4-thumbnail.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AirLocUnclock/V2/assets/img/portfolio/5-thumbnail.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AirLocUnclock/V2/assets/img/portfolio/6-thumbnail.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AirLocUnclock/V2/assets/img/products/1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AirLocUnclock/V2/assets/img/products/2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AirLocUnclock/V2/assets/img/products/2c848fcd-7fb0-4533-bb0e-a6970487afc8 (1).jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AirLocUnclock/V2/assets/img/products/2c848fcd-7fb0-4533-bb0e-a6970487afc8.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AirLocUnclock/V2/assets/img/products/2c848fcd-7fb0-4533-bb0e-a6970487afc8.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AirLocUnclock/V2/assets/img/products/3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AirLocUnclock/V2/assets/img/team/avatar2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AirLocUnclock/V2/assets/img/team/avatar4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AirLocUnclock/V2/assets/img/team/avatar5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AirLocUnclock/V2/assets/js/Test.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AirLocUnclock/V2/assets/js/VerifCompte.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AirLocUnclock/V2/assets/js/affichemap.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AirLocUnclock/V2/assets/js/bold-and-bright.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AirLocUnclock/V2/assets/js/data.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AirLocUnclock/V2/assets/js/jquery.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AirLocUnclock/V2/assets/js/script.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AirLocUnclock/V2/contacts.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AirLocUnclock/V2/index-2.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AirLocUnclock/V2/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AirLocUnclock/V2/pricing.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AirLocUnclock/V2/projects.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AirLocUnclock/V2/services.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/App_airlocunlock/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/App_airlocunlock/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/App_airlocunlock/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/App_airlocunlock/.idea/gradle.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/App_airlocunlock/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/App_airlocunlock/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/App_airlocunlock/app/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/App_airlocunlock/app/build.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/App_airlocunlock/app/proguard-rules.pro" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/App_airlocunlock/app/src/androidTest/java/com/example/app_airlocunlock/ExampleInstrumentedTest.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/App_airlocunlock/app/src/main/AndroidManifest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/App_airlocunlock/app/src/main/ic_launcher-playstore.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/App_airlocunlock/app/src/main/java/com/example/app_airlocunlock/Login.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/App_airlocunlock/app/src/main/java/com/example/app_airlocunlock/MainActivity.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/App_airlocunlock/app/src/main/java/com/example/app_airlocunlock/api/UserApi.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/App_airlocunlock/app/src/main/java/com/example/app_airlocunlock/component/CustomTopAppBar.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/App_airlocunlock/app/src/main/java/com/example/app_airlocunlock/pages/MdpOublier.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/App_airlocunlock/app/src/main/java/com/example/app_airlocunlock/pages/proprietaires.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/App_airlocunlock/app/src/main/java/com/example/app_airlocunlock/pages/utilisateur.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/App_airlocunlock/app/src/main/java/com/example/app_airlocunlock/ui/theme/Color.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/App_airlocunlock/app/src/main/java/com/example/app_airlocunlock/ui/theme/Shape.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/App_airlocunlock/app/src/main/java/com/example/app_airlocunlock/ui/theme/Theme.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/App_airlocunlock/app/src/main/java/com/example/app_airlocunlock/ui/theme/Type.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/App_airlocunlock/app/src/main/res/drawable-hdpi/profil.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/App_airlocunlock/app/src/main/res/drawable-mdpi/profil.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/App_airlocunlock/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/App_airlocunlock/app/src/main/res/drawable-xhdpi/profil.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/App_airlocunlock/app/src/main/res/drawable-xxhdpi/profil.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/App_airlocunlock/app/src/main/res/drawable-xxxhdpi/profil.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/App_airlocunlock/app/src/main/res/drawable/ic_launcher_background.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/App_airlocunlock/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/App_airlocunlock/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/App_airlocunlock/app/src/main/res/mipmap-hdpi/ic_launcher.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/App_airlocunlock/app/src/main/res/mipmap-hdpi/ic_launcher_foreground.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/App_airlocunlock/app/src/main/res/mipmap-hdpi/ic_launcher_round.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/App_airlocunlock/app/src/main/res/mipmap-mdpi/ic_launcher.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/App_airlocunlock/app/src/main/res/mipmap-mdpi/ic_launcher_foreground.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/App_airlocunlock/app/src/main/res/mipmap-mdpi/ic_launcher_round.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/App_airlocunlock/app/src/main/res/mipmap-xhdpi/ic_launcher.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/App_airlocunlock/app/src/main/res/mipmap-xhdpi/ic_launcher_foreground.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/App_airlocunlock/app/src/main/res/mipmap-xhdpi/ic_launcher_round.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/App_airlocunlock/app/src/main/res/mipmap-xxhdpi/ic_launcher.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/App_airlocunlock/app/src/main/res/mipmap-xxhdpi/ic_launcher_foreground.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/App_airlocunlock/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/App_airlocunlock/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/App_airlocunlock/app/src/main/res/mipmap-xxxhdpi/ic_launcher_foreground.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/App_airlocunlock/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/App_airlocunlock/app/src/main/res/values/colors.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/App_airlocunlock/app/src/main/res/values/strings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/App_airlocunlock/app/src/main/res/values/themes.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/App_airlocunlock/app/src/test/java/com/example/app_airlocunlock/ExampleUnitTest.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/App_airlocunlock/build.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/App_airlocunlock/gradle.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/App_airlocunlock/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/App_airlocunlock/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/App_airlocunlock/gradlew" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/App_airlocunlock/gradlew.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/App_airlocunlock/settings.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Inscription.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Login.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MettreEnLoc.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/bootstrap/css/bootstrap.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/bootstrap/js/bootstrap.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/fonts/FontAwesome.otf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/fonts/Simple-Line-Icons.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/fonts/Simple-Line-Icons.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/fonts/Simple-Line-Icons.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/fonts/Simple-Line-Icons.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/fonts/Simple-Line-Icons.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/fonts/fa-brands-400.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/fonts/fa-brands-400.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/fonts/fa-brands-400.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/fonts/fa-brands-400.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/fonts/fa-brands-400.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/fonts/fa-regular-400.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/fonts/fa-regular-400.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/fonts/fa-regular-400.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/fonts/fa-regular-400.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/fonts/fa-regular-400.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/fonts/fa-solid-900.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/fonts/fa-solid-900.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/fonts/fa-solid-900.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/fonts/fa-solid-900.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/fonts/fa-solid-900.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/fonts/font-awesome.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/fonts/fontawesome-all.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/fonts/fontawesome-webfont.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/fonts/fontawesome-webfont.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/fonts/fontawesome-webfont.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/fonts/fontawesome-webfont.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/fonts/fontawesome-webfont.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/fonts/fontawesome5-overrides.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/fonts/simple-line-icons.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/AvcVue.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/Filter/AvcVue-removebg-preview.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/Filter/Campagne-removebg-preview.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/Filter/bdmer-removebg-preview.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/Filter/luxe-removebg-preview (1).png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/Filter/luxe-removebg-preview.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/Filter/nature-removebg-preview.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/Filter/pieddesPistes-removebg-preview.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/Filter/piscine-removebg-preview.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/Filter/tiny-removebg-preview.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/avatars/Capture007.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/avatars/avatar1.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/avatars/avatar1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/avatars/avatar2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/avatars/avatar3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/avatars/png-transparent-user-profile-computer-icons-login-user-avatars-thumbnail.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/bdmer.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/brands/instacart.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/brands/kickstarter.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/brands/lyft.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/brands/pinterest.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/brands/shopify.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/brands/twitter.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/portfolio/1-full.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/portfolio/1-thumbnail.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/portfolio/2-thumbnail.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/portfolio/3-thumbnail.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/portfolio/4-thumbnail.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/portfolio/5-thumbnail.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/portfolio/6-thumbnail.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/products/1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/products/2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/products/2c848fcd-7fb0-4533-bb0e-a6970487afc8 (1).jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/products/2c848fcd-7fb0-4533-bb0e-a6970487afc8.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/products/2c848fcd-7fb0-4533-bb0e-a6970487afc8.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/products/3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/team/avatar2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/team/avatar4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/team/avatar5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/js/Test.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/js/VerifCompte.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/js/affichemap.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/js/bold-and-bright.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/js/data.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/js/jquery.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/js/script.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/contacts.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/index-2.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pricing.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/services.html" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -25,24 +435,21 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/AirLocUnclock/V2/index.html" root0="FORCE_HIGHLIGHTING" />
-  </component>
   <component name="PhpWorkspaceProjectConfiguration" interpreter_name="PHP" />
   <component name="ProjectId" id="2MxB8wL5ks8tgYAnlo0y8UlMyzR" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">
-    <property name="DefaultHtmlFileTemplate" value="HTML File" />
-    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
-    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$USER_HOME$/Documents/laragon-portable/bin/php/php-8.1.13-nts-Win32-vs16-x64/php.exe" />
-    <property name="settings.editor.selected.configurable" value="reference.webide.settings.project.settings.php" />
-    <property name="vue.rearranger.settings.migration" value="true" />
-  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "T:/AirlocUnlock/AirLocUnclock/Site_AirlocUnlock",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -52,6 +459,7 @@
       <option name="presentableId" value="Default" />
       <updated>1678699198072</updated>
       <workItem from="1678699200409" duration="4963000" />
+      <workItem from="1678807292567" duration="112000" />
     </task>
     <servers />
   </component>

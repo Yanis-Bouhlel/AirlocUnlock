@@ -16,10 +16,10 @@ function ShowMap() {
         map.style.marginTop = "10px" 
         BtnAffiche.style.marginTop = "10px" 
         BtnAffiche.innerText = "Retirer la carte"
-        MarkersOnTheBeat()
+       // MarkersOnTheBeat()
     }
 }
-function MarkersOnTheBeat(){
+/*function MarkersOnTheBeat(){
 carte = new google.maps.Map(document.getElementById("carte"), options);
 
       $.ajax({
@@ -40,3 +40,5 @@ carte = new google.maps.Map(document.getElementById("carte"), options);
     }
   })
 }
+*/
+
