@@ -5,24 +5,25 @@
 #include "Arduino.h"
 #include "SystemDoor.h"
 
-SystemDoor::SystemDoor(Motor pMotor, Eclairage myLux) {
-    myLed = myLux ;
-    myMotor = pMotor ;
+
+Motor myMotor(2);
+Eclairage myLed(5) ;
+
+SystemDoor::SystemDoor() {
 }
 
 void SystemDoor::Ouverture() {
-    myMotor.On() ;
-    myMotor.Delay(4) ;
-    myLed.TurnOn('G') ;
+  //myMotor.On() ;
+  //myMotor.Delay(4) ;
+  myLed.TurnOn('G') ;
 }
 
 void SystemDoor::Fermeture() {
-    myMotor.Off() ;
-    myMotor.Delay(4) ;
-    myLed.TurnOn('R') ;
+  myMotor.Off() ;
+  myMotor.Delay(4) ;
+  myLed.TurnOn('R') ;
 }
 
 void SystemDoor::Attente() {
-    myLed.TurnOn('W') ;
+  myLed.TurnOn('W') ;
 }
-

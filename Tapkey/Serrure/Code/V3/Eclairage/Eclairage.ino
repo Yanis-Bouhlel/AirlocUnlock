@@ -1,9 +1,9 @@
-#include <Arduino.h>
+#include "Eclairage.h"
 
-void setup() {
-
+Eclairage myLuz(14);
+void setup(){
+  
 }
-
 void loop() {
-
+myLuz.TurnOn('W');
 }
