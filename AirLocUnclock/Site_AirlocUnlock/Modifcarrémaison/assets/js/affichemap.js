@@ -16,29 +16,31 @@ function ShowMap() {
         BtnAffiche.style.marginTop = "10px" ;
         BtnAffiche.innerText = "Retirer la carte";
 
-        var xmlhttp = new XMLHttpRequest();
-        xmlhttp.onreadystatechange = function() {
-            if (this.readyState == 4 && this.status == 200) {
-                var markers = JSON.parse(this.responseText);
-                var mapOptions = {
-                    zoom: 4,
-                    center: {lat: -33, lng: 151}
-                };
-                var map = new google.maps.Map(document.getElementById('DivMap'), mapOptions);
-                for (var i = 0; i < markers.length; i++) {
+        var DivMap = document.getElementById("map")
+        var myCenter=new google.maps.LatLng(53, -1.33);
 
-                    var marker = new google.maps.Marker({
+        var marker=new google.maps.Marker({
+            position:myCenter,
+            url: '/',
+            animation:google.maps.Animation.DROP
+        });
 
-                        position: {lat: markers[i].lat, lng: markers[i].lng},
-                        map: map,
-                        title: markers[i].title
-                    });
-                }
-            }
-        };
-        xmlhttp.open("GET", "assets/js/data.json", true);
-        xmlhttp.send();
-    }
+
+
+        google.maps.event.addDomListener(window, 'load', initialize);
+        google.maps.event.addListener(marker, 'click', function() {window.location.href = marker.url});
+        DivMap.style.position = "absolute"}}
+
+function initialize()
+{
+    var mapProp = {
+        center:myCenter,
+        zoom: 14,
+    };
+
+    var map=new google.maps.Map(document.getElementById("map"),mapProp);
+
+    marker.setMap(map);
 }
 /*
 fetch("assets/js/data.json").then(res => res.json()).then(data => {
