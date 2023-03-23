@@ -1,4 +1,5 @@
- carte = new google.maps.Map(document.getElementById("map"), options);var BtnAffiche = document.getElementById("afficheMap")
+carte = new google.maps.Map(document.getElementById("map"), options);
+var BtnAffiche = document.getElementById("afficheMap")
 var main = document.getElementById("main")
 var map = document.getElementById("Carte")
 
@@ -40,3 +41,45 @@ carte = new google.maps.Map(document.getElementById("carte"), options);
     }
   })
 }
+
+ function StreamezHoudi(){
+
+     $.ajax({
+         url: "./assets/js/data.json",
+         method: "GET",
+         dataType: "json",
+         success: function(response) {
+             console.log("response : "+ response.lat);
+             places = personne.markers;
+
+             var options = {
+                 center:  new google.maps.LatLng(10, 10),
+                 zoom: 3,
+                 mapTypeId: google.maps.MapTypeId.ROADMAP
+             };
+
+             // Create Map
+             var map = new google.maps.Map(document.getElementById("map"), options);
+
+             //  latLng Array of JSON  [{lat,lng},{},...{}]
+             let latLng = Array();
+             //let places = Array();
+             for(let i=0; i<places.length;i++){
+                 for(key in places[i]){
+                     if(key == "latLng") latLng.push(places[i][key]);
+                 }
+             }
+
+
+             // set markers on  Map
+             for (let i = 0; i < latLng.length; i++) {
+                 setInfoMarker(places[i],new google.maps.Marker({
+                     position: latLng[i],
+                     map: map,
+                     title: places[i].namePlace
+                 }));
+             }
+         }
+     });
+
+ }
