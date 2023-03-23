@@ -1,34 +1,34 @@
 
 //const ApiUrl = 'https://5f220e36-3655-41df-9e6d-bdddd1f7fd4c.mock.pstmn.io/housing';
 
-/*$.ajax({
+        /*$.ajax({
 
-    url: "assets/js/data.json",
-    method: "GET",
-    data: id,
-    success: function () {
-        console.log(id);
-    }
-})
-*/
+            url: "assets/js/data.json",
+            method: "GET",
+            data: id,
+            success: function () {
+                console.log(id);
+            }
+        })
+    */
 
 //récupAPI(ApiUrl);
 récupAPI("assets/js/data.json");
 
 function récupAPI(url) {
     fetch(url).then(res => res.json()).then(data => {
-        affichage(data);
-        console.log(data);
+            affichagecard(data);
+            //console.log(data);
     })
 }
 
 
-function affichage(data) {
+function affichagecard(data) {
     let i=1;
-    data.forEach(test => {
-        const { localisation, date, photo1, photo2, photo3, note, prix, id, lng, lat,ClientTapkey } = test;
+    data.forEach(value => {
+        const { localisation, date, photo1, photo2, photo3, note, prix, id, lng, lat,ClientTapkey } = value;
         const vignette = document.createElement('div');
-        vignette.classList.add('movie');
+        vignette.classList.add('maison');
         vignette.innerHTML = `
                                   <div class="col-md-4">
     <div class="card cardmaison" style="border-style: solid;">
@@ -54,7 +54,7 @@ function affichage(data) {
 </div>
         
                 `
-        i++;
+    i++;
         document.getElementById('main').appendChild(vignette);
 
 
