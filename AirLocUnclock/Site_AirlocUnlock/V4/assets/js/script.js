@@ -1,24 +1,24 @@
 
 //const ApiUrl = 'https://5f220e36-3655-41df-9e6d-bdddd1f7fd4c.mock.pstmn.io/housing';
 
-        /*$.ajax({
+/*$.ajax({
 
-            url: "assets/js/data.json",
-            method: "GET",
-            data: id,
-            success: function () {
-                console.log(id);
-            }
-        })
-    */
+    url: "assets/js/data.json",
+    method: "GET",
+    data: id,
+    success: function () {
+        console.log(id);
+    }
+})
+*/
 
 //récupAPI(ApiUrl);
 récupAPI("assets/js/data.json");
 
 function récupAPI(url) {
     fetch(url).then(res => res.json()).then(data => {
-            affichage(data);
-            console.log(data);
+        affichage(data);
+        console.log(data);
     })
 }
 
@@ -54,7 +54,7 @@ function affichage(data) {
 </div>
         
                 `
-    i++;
+        i++;
         document.getElementById('main').appendChild(vignette);
 
 

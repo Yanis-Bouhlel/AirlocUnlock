@@ -10,10 +10,10 @@
 class SystemDoor {
 protected:
     bool DoorState ;
-    Motor *myMotor ;
-    Eclairage *Led ;
+    Motor myMotor ;
+    Eclairage Led ;
 public:
-    SystemDoor()  ;
+    SystemDoor(Motor pMotor, Eclairage myLux);
     void Ouverture() ;
     void Fermeture() ;
 };

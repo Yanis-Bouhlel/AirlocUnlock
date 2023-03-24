@@ -1,5 +1,5 @@
 #include "SystemDoor.h"
-SystemDoor Sys();
+SystemDoor Sys());
 void setup() {
 
 }
