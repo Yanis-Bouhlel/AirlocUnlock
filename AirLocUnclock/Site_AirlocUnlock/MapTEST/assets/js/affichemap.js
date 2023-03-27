@@ -6,6 +6,7 @@ function ShowMap() {
     if(mapgoogle.style.display != "none"){
         mapgoogle.style.display = "none";
         main.style.display = "block";
+        BouttonAffichage.style.marginTop = "auto";
         BouttonAffichage.innerText = "Afficher la carte"
     }
     else{
@@ -13,12 +14,13 @@ function ShowMap() {
         main.style.display = "none ";
         mapgoogle.style.display = "block";
         mapgoogle.style.marginTop = "10px" ;
-        BouttonAffichage.style.marginTop = "10px" ;
-        BouttonAffichage.innerText = "Retirer la carte";
+        BouttonAffichage.style.marginTop = "auto" ;
+        BouttonAffichage.innerText = "Afficher la liste";
         initialiser();
     }
     
 }
+
 function initialiser() {
     var xmlhttp = new XMLHttpRequest();
      xmlhttp.onreadystatechange = function() {
