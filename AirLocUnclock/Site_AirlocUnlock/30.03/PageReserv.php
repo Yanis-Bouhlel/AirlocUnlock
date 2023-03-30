@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="fr">
-<?php  ?>
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
@@ -84,7 +83,7 @@
                         <div class="row">
                             <div class="col-md-12 offset-xl-0" style="height: 46.7px;"><select id="NbVoyageur" style="width: 100%;height: 100%;border-radius: 10px;border-top-left-radius: 0px;border-top-right-radius: 0px;border-bottom-style: solid;border-bottom-color: rgb(0,0,0);border-left-color: rgb(0,0,0);margin: auto;font-family: Actor, sans-serif;font-size: 16px;">
                                     <optgroup label="This is a group">
-                                        <option value="12" selected="">This is item 1</option>
+                                        <option value="12" selected="">Nombre de personne</option>
                                         <option value="13">This is item 2</option>
                                         <option value="14">This is item 3</option>
                                     </optgroup>
