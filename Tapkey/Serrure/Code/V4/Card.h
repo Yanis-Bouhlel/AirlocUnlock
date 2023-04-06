@@ -1,0 +1,28 @@
+//
+// Created by bouhlel_y2 on 4/4/2023.
+//
+
+#ifndef V4_CARD_H
+#define V4_CARD_H
+
+#include "Broches.h"
+#include "Eclairage.h"
+#include "ModuleBluetooth.h"
+
+
+class Card {
+protected :
+    bool OnOff ;
+    ModuleBluetooth *moduleB ;
+    Broches *mesBroches ;
+    Eclairage *maLum ;
+public:
+    Card();
+    void setup(int ledPin, int motorPin, int lectorPin);
+    void Open() ;
+    void Close() ;
+
+};
+
+
+#endif

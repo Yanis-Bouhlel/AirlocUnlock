@@ -7,14 +7,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e8d535c4-f8b7-48d0-92fe-b2251236ef2d" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Tapkey/Serrure/Code/V3/SystemDoor/Eclairage.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tapkey/Serrure/Code/V3/SystemDoor/Eclairage.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tapkey/Serrure/Code/V3/SystemDoor/Motor.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tapkey/Serrure/Code/V3/SystemDoor/Motor.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tapkey/Serrure/Code/V3/Eclairage/Eclairage.ino" beforeDir="false" afterPath="$PROJECT_DIR$/Tapkey/Serrure/Code/V3/Eclairage/Eclairage.ino" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tapkey/Serrure/Code/V3/SystemDoor/SystemDoor.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Tapkey/Serrure/Code/V3/SystemDoor/SystemDoor.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tapkey/Serrure/Code/V3/SystemDoor/SystemDoor.h" beforeDir="false" afterPath="$PROJECT_DIR$/Tapkey/Serrure/Code/V3/SystemDoor/SystemDoor.h" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -64,13 +57,6 @@
       <recent name="T:\AirlocUnlock\Tapkey\Serrure\Code\V3\SystemDoor" />
     </key>
   </component>
-  <component name="RunManager">
-    <configuration default="true" type="GradleAppRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true">
-      <method v="2">
-        <option name="com.jetbrains.cidr.cpp.gradle.execution.GradleNativeBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
-      </method>
-    </configuration>
-  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -83,6 +69,7 @@
       <workItem from="1678807292567" duration="112000" />
       <workItem from="1679404674444" duration="752000" />
       <workItem from="1679572128396" duration="6171000" />
+      <workItem from="1680608803508" duration="35000" />
     </task>
     <servers />
   </component>
