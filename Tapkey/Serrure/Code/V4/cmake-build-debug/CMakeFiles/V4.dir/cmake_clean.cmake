@@ -4,6 +4,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/V4.dir/Eclairage.cpp.obj"
   "CMakeFiles/V4.dir/Lock.cpp.obj"
   "CMakeFiles/V4.dir/ModuleBluetooth.cpp.obj"
+  "CMakeFiles/V4.dir/Motor.cpp.obj"
   "CMakeFiles/V4.dir/main.cpp.obj"
   "V4.exe"
   "V4.exe.manifest"

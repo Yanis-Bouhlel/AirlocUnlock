@@ -248,6 +248,30 @@ ModuleBluetooth.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\V4.dir\build.make CMakeFiles/V4.dir/ModuleBluetooth.cpp.s
 .PHONY : ModuleBluetooth.cpp.s
 
+Motor.obj: Motor.cpp.obj
+.PHONY : Motor.obj
+
+# target to build an object file
+Motor.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\V4.dir\build.make CMakeFiles/V4.dir/Motor.cpp.obj
+.PHONY : Motor.cpp.obj
+
+Motor.i: Motor.cpp.i
+.PHONY : Motor.i
+
+# target to preprocess a source file
+Motor.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\V4.dir\build.make CMakeFiles/V4.dir/Motor.cpp.i
+.PHONY : Motor.cpp.i
+
+Motor.s: Motor.cpp.s
+.PHONY : Motor.s
+
+# target to generate assembly for a file
+Motor.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\V4.dir\build.make CMakeFiles/V4.dir/Motor.cpp.s
+.PHONY : Motor.cpp.s
+
 main.obj: main.cpp.obj
 .PHONY : main.obj
 
@@ -296,6 +320,9 @@ help:
 	@echo ... ModuleBluetooth.obj
 	@echo ... ModuleBluetooth.i
 	@echo ... ModuleBluetooth.s
+	@echo ... Motor.obj
+	@echo ... Motor.i
+	@echo ... Motor.s
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s
