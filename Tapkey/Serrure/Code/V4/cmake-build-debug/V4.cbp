@@ -112,6 +112,12 @@
 		<Unit filename="T:/AirlocUnlock/Tapkey/Serrure/Code/V4/ModuleBluetooth.h">
 			<Option target="V4"/>
 		</Unit>
+		<Unit filename="T:/AirlocUnlock/Tapkey/Serrure/Code/V4/Motor.cpp">
+			<Option target="V4"/>
+		</Unit>
+		<Unit filename="T:/AirlocUnlock/Tapkey/Serrure/Code/V4/Motor.h">
+			<Option target="V4"/>
+		</Unit>
 		<Unit filename="T:/AirlocUnlock/Tapkey/Serrure/Code/V4/main.cpp">
 			<Option target="V4"/>
 		</Unit>

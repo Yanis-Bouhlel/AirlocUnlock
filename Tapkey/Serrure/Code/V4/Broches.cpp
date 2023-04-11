@@ -4,9 +4,12 @@
 
 #include "Broches.h"
 
-Broches::Broches(int ledPin, int motorPin, int lectorPin) {
+Broches::Broches(int ledPin, int motorPin1, int motorPin2, int motorPin3, int motorPin4, int lectorPin) {
     this->LedPin = ledPin ;
-    this->MotorPin = motorPin ;
+    this->MotorPin1 = motorPin1 ;
+    this->MotorPin2 = motorPin2 ;
+    this->MotorPin3 = motorPin3 ;
+    this->MotorPin4 = motorPin4 ;
     this->LectorPin = lectorPin ;
 }
 
@@ -15,9 +18,21 @@ int Broches::getPin(char ChoixPin, int Pin) {
         this->LedPin = Pin ;
         return this->LedPin ;
     }
-    else if (ChoixPin == 'M'){
-        this->MotorPin = Pin ;
-        return this->MotorPin ;
+    else if (ChoixPin == 'M1'){
+        this->MotorPin1 = Pin ;
+        return this->MotorPin1 ;
+    }
+    else if (ChoixPin == 'M2'){
+        this->MotorPin2 = Pin ;
+        return this->MotorPin2 ;
+    }
+    else if (ChoixPin == 'M3'){
+        this->MotorPin3 = Pin ;
+        return this->MotorPin3 ;
+    }
+    else if (ChoixPin == 'M4'){
+        this->MotorPin4 = Pin ;
+        return this->MotorPin4 ;
     }
     else if (ChoixPin == 'W'){
         this->LectorPin = Pin ;
