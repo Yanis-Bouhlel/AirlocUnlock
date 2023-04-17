@@ -7,14 +7,14 @@
 
 #include "Broches.h"
 #include "Eclairage.h"
-#include "ModuleBluetooth.h"
+//#include "ModuleBluetooth.h"
 #include "Motor.h"
 
 
 class Card {
 protected :
     bool OnOff ;
-    ModuleBluetooth *moduleB ;
+    //ModuleBluetooth *moduleB ;
     Broches *mesBroches ;
     Eclairage *maLum ;
     Motor *myMotor ;

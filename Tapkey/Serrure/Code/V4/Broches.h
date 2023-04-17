@@ -14,11 +14,11 @@ private:
     int MotorPin3 ;
     int MotorPin4 ;
     int LectorPin ;
-    int getPin(char ChoixPin, int Pin) ;
-    bool Auth(int id);
+    int getPin(char ChoixPin, long int Pin) ;
+    bool Auth(long int id);
 public:
     Broches(int ledPin, int motorPin1, int motorPin2, int motorPin3, int motorPin4, int lectorPin);
-    int Support(int id, char ChoixPin, int Pin);
+    int Support(long int id, char ChoixPin, int Pin);
 
 };
 
