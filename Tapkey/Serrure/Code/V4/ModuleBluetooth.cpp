@@ -46,8 +46,7 @@ int ModuleBluetooth::BatteryState() {
 
 void ModuleBluetooth::Traitement() {
     connexionState();
-    int name = connexionState().indexOf("Name = " + this->nom + "IdSerrure = ");
-    if (name != -1) {
+    if (connexionState() == "open") {
         BatteryState();
         DoorState();
     }
