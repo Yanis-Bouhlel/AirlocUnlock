@@ -7,18 +7,21 @@
 
 #include "Broches.h"
 #include "Eclairage.h"
-#include "ModuleBluetooth.h"
+//#include "ModuleBluetooth.h"
+#include "Motor.h"
 
 
 class Card {
 protected :
     bool OnOff ;
-    ModuleBluetooth *moduleB ;
+    //ModuleBluetooth *moduleB ;
     Broches *mesBroches ;
     Eclairage *maLum ;
+    Motor *myMotor ;
+
 public:
     Card();
-    void setup(int ledPin, int motorPin, int lectorPin);
+    void setup(int ledPin, int motorPin1, int motorPin2, int motorPin3, int motorPin4, int lectorPin);
     void Open() ;
     void Close() ;
 

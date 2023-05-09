@@ -7,8 +7,8 @@
 #include "Arduino.h"
 
 
-#define NUM_LEDS 3
-#define DATA_PIN 23
+#define NUM_LEDS 30
+#define DATA_PIN 6
 
 Adafruit_NeoPixel pixels(NUM_LEDS, DATA_PIN, NEO_GRB + NEO_KHZ800);
 
@@ -20,6 +20,7 @@ Eclairage::Eclairage(int LedPin) {
 }
 
 void Eclairage::PinMode() {
+   //pixels.setBrightness(1);
     pixels.begin();
 }
 
@@ -51,8 +52,6 @@ void Eclairage::Green() {
 }
 
 void Eclairage::Off() {
-
-
     PinMode() ;
     for (int i = 0; i < NUM_LEDS; i++) {
         pixels.setPixelColor(i, pixels.Color(0, 0, 0));
