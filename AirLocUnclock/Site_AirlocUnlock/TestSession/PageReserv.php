@@ -1,19 +1,3 @@
-<?php
-ob_start();
-date_default_timezone_set('Europe/Paris');
-session_start();
-$name = "";
-?>
-<?php
-
-if(isset($_SESSION['mail']) && isset($_SESSION['mdp'])) {
-    // Afficher les informations de l'utilisateur connecté
-    echo "Vous êtes connecté en tant que ".$_SESSION['mail'];
-    //header("Location: PageReserv.php");
-
-}
-?>
-
 <!DOCTYPE html>
 <html lang="en">
 
@@ -35,31 +19,9 @@ if(isset($_SESSION['mail']) && isset($_SESSION['mdp'])) {
     <link rel="stylesheet" href="assets/css/style.css">
 </head>
 
-<body>
-<?php
-//$name = $_POST['mail'] ;
-$bool = false;
-    if (!isset($_SESSION['mail']) && !isset($_SESSION['mdp'])){
-        if (isset($_POST['mail']) && isset($_POST['mdp'])) {
-            if ($_POST['mail'] == 'isma' && $_POST['mdp'] == '123') {
-                // Enregistrez les informations de connexion de l'utilisateur dans la session
-                $_SESSION['mail'] = $_POST['mail'];
-                $_SESSION['mdp'] = $_POST['mdp'];
-                $bool = true;
-                $name = $_POST['mail'];
-                $_SESSION['name'] = $name ;
-                echo "Sa marche" . $bool;
-
-            } else {
-                echo "<script>console.log(\"SESSION PAS OK\")</script>";
-            }
-        }
-    }
-
-
-?>
+<body><!--
 <script>
-    var verificationCo = <?php echo json_encode($bool); ?>;
+    var verificationCo =;
 
     function PayOrConnect(VerificationCo) {
         if (VerificationCo == 1 ) {
@@ -78,10 +40,10 @@ $bool = false;
     }
 
 
-</script>
+</script> -->
 
 <nav class="navbar navbar-light navbar-expand-md sticky-top navbar-shrink py-3" id="mainNav" style="position: sticky;">
-    <div class="container"><a class="navbar-brand d-flex align-items-center" href="/"></a><a onclick="goToIndex()"><img
+    <div class="container"><a class="navbar-brand d-flex align-items-center" href="/"></a><a href="index.php"><img
                     src="assets/img/avatars/Capture007.png" style="width: 191px;"></a>
         <div class="collapse navbar-collapse" id="navcol-2">
             <ul class="navbar-nav mx-auto">
@@ -97,7 +59,7 @@ $bool = false;
             </ul>
             <div>
                 <p id="HelloName"
-                   style="margin: 10px 55px 16px 0px;margin-right: 55px;margin-top: 13px;display: block;"><?php echo $name ; ?></p>
+                   style="margin: 10px 55px 16px 0px;margin-right: 55px;margin-top: 13px;display: block;"><?php //echo $name ; ?></p>
             </div>
             <div class="dropdown no-arrow"><a class="dropdown-toggle active nav-link" aria-expanded="false"
                                               data-bs-toggle="dropdown" href="#"

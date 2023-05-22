@@ -9,7 +9,7 @@ fetch("assets/js/data.json")
         const id = urlParams.get('id')
         
         data.forEach(reservation => {
-            if(reservation.id==id ){
+            if(reservation.id==id){
                 console.log(reservation);
                 
                 var Titre1 = document.getElementById('Titre1');

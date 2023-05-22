@@ -1,13 +1,3 @@
-<?php
-ob_start();
-date_default_timezone_set('Europe/Paris');
-session_start();
-if(isset($_SESSION['mail']) && isset($_SESSION['mdp'])) {
-    // Afficher les informations de l'utilisateur connecté
-    echo "Vous êtes connecté en tant que ".$_SESSION['mail'];
-}
-
-?>
 <!DOCTYPE html>
 <html lang="en">
 
@@ -31,21 +21,22 @@ if(isset($_SESSION['mail']) && isset($_SESSION['mdp'])) {
 <body>
     <header class="bg-primary-gradient" style="width: 100%;position: sticky;"></header>
     <nav class="navbar navbar-light navbar-expand-md sticky-top navbar-shrink py-3" id="mainNav" style="position: sticky;">
-        <div class="container"><a class="navbar-brand d-flex align-items-center" href="/"></a><a onclick="goToIndex()"><img src="assets/img/avatars/Capture007.png" style="width: 191px;"></a>
+        <div class="container"><a class="navbar-brand d-flex align-items-center" href="/"></a><a href="index.php"><img src="assets/img/avatars/Capture007.png" style="width: 191px;"></a>
             <div class="collapse navbar-collapse" id="navcol-2">
                 <ul class="navbar-nav mx-auto">
                     <li class="nav-item"><button class="btn btn-primary" type="button" style="background: rgba(51,98,255,0);color: rgb(85,85,85);font-family: Actor, sans-serif;box-shadow: 0px 0px 6px 0px rgba(85,85,85,0.82);border-style: solid;border-color: rgb(85,85,85);font-size: 14px;">N'importe où&nbsp; | Une Semaine | Ajouter des voyageurs&nbsp; &nbsp;&nbsp;<span style="border-radius: 72px;width: 101px;height: 40px;background: #ff5a60;font-size: 18px;border-width: 26px;padding: 2px;padding-top: 3px;padding-bottom: 2px;padding-left: 2px;padding-right: 2px;">&nbsp;<i class="icon-magnifier" style="color: rgb(255,255,255);padding-bottom: 0px;padding-top: 0px;margin-top: 0px;font-size: 14px;"></i>&nbsp;</span></button></li>
                 </ul>
                 <div>
                     <p id="HelloName"
-                       style="margin: 10px 55px 16px 0px;margin-right: 55px;margin-top: 13px;display: block;"><?php echo $_SESSION['mail'] ; ?></p>
+                       style="margin: 10px 55px 16px 0px;margin-right: 55px;margin-top: 13px;display: block;"></p>
                 </div>
                 <div class="dropdown no-arrow"><a class="dropdown-toggle active nav-link" aria-expanded="false" data-bs-toggle="dropdown" href="#" style="padding-right: 0px;margin-bottom: 2px;"><span class="d-none d-lg-inline me-2 text-gray-600 small"></span><img class="border rounded-circle img-profile" src="assets/img/avatars/png-transparent-user-profile-computer-icons-login-user-avatars-thumbnail.png" style="width: 30px;" width="30" height="32"></a>
                     <div class="dropdown-menu shadow dropdown-menu-end animated--grow-in" style="width: 210px;"><a class="dropdown-item" id="test-1" href="Inscription.html" onclick=""><i class="fa fa-user-circle fa-sm fa-fw me-2 text-gray-400"></i>&nbsp;Inscription</a><a class="dropdown-item" id="test-2" href="Login.html" onclick=""><i class="fa fa-user-circle-o fa-sm fa-fw me-2 text-gray-400"></i>&nbsp;Connexion</a>
                         <div class="dropdown-divider"></div><a class="dropdown-item" href="MettreEnLoc.html"><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill="currentColor" viewBox="0 0 16 16" class="bi bi-house fa-sm fa-fw me-2 text-gray-400" style="height: 18px;">
                                 <path fill-rule="evenodd" d="M2 13.5V7h1v6.5a.5.5 0 0 0 .5.5h9a.5.5 0 0 0 .5-.5V7h1v6.5a1.5 1.5 0 0 1-1.5 1.5h-9A1.5 1.5 0 0 1 2 13.5zm11-11V6l-2-2V2.5a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5z"></path>
                                 <path fill-rule="evenodd" d="M7.293 1.5a1 1 0 0 1 1.414 0l6.647 6.646a.5.5 0 0 1-.708.708L8 2.207 1.354 8.854a.5.5 0 1 1-.708-.708L7.293 1.5z"></path>
-                            </svg>&nbsp;Mettre en location</a><a class="dropdown-item" href="#"><i class="fas fa-cogs fa-sm fa-fw me-2 text-gray-400"></i>Paramètres</a><a class="dropdown-item" onclick="deco()"><i class="fas fa-sign-out-alt fa-sm fa-fw me-2 text-gray-400"></i>&nbsp;Déconnexion</a>
+                            </svg>&nbsp;Mettre en location</a><a class="dropdown-item" href="#"><i class="fas fa-cogs fa-sm fa-fw me-2 text-gray-400"></i>Paramètres</a>
+                        <form action="POST"><a class="dropdown-item"><i class="fas fa-sign-out-alt fa-sm fa-fw me-2 text-gray-400"></i>&nbsp;Déconnexion</a></form>
                     </div>
                 </div>
             </div><button data-bs-target="#navcol-2" data-bs-toggle="collapse" class="navbar-toggler"><span class="visually-hidden">Toggle navigation</span><span class="navbar-toggler-icon"></span></button>

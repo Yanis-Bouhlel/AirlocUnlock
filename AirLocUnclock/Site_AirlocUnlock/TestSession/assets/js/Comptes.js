@@ -37,13 +37,9 @@ else
     }
 }
 
-function deco(){
-    var suffixe = "Veuillez vous connectez"
-    BonjourNom.innerHTML = suffixe ; 
-}
 
 
-function goToIndex(){
+/*function goToIndex(){
     const url = "index.php?nom=" + nom_utilisateur + "&prenom=" + prenom_utilisateur;
     document.location.href = url;
-}
+}*/
