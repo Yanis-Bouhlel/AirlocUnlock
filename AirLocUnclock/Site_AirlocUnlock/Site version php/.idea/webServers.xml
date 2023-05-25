@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="1fbad8cf-f932-4028-be1a-59e3ad582d0e" name="ovh" url="http://51.210.151.13/btssnir/projets2023/airlocunlock/">
+        <fileTransfer rootFolder="/home/airlocunlock" accessType="SFTP" host="51.210.151.13" port="22" sshConfigId="d0ff3f70-76fa-47e5-9617-d987f6918357" sshConfig="airlocunlock@51.210.151.13:22 password">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" keepAliveTimeout="0" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>
