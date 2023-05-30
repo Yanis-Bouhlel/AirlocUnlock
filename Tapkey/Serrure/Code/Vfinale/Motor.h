@@ -9,11 +9,11 @@
 class Motor {
 
 protected:
+    int MotorPin1 ;
     int MotorPin2 ;
-    int MotorPin3 ;
-    int MotorPin4 ;
+
 public:
-    Motor(int p1, int p2, int p3, int p4);
+    Motor(int p1, int p2);
     void moveRight(int time);
     void moveLeft(int time);
 

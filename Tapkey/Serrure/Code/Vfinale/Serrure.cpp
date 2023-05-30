@@ -5,6 +5,7 @@
 #include "Serrure.h"
 
 Serrure::Serrure(){
+  this->Bluetooth = new ModuleBluetooth() ; 
     if(this->Nom == ""){
         this->initLock = false ;
     }
