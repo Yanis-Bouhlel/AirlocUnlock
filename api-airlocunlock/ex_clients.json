@@ -1,0 +1,256 @@
+{
+    "clients": [
+        {
+            "id": "1",
+            "nom": "Martin",
+            "prenom": "Jeanne",
+            "email": "jeanne.martin@example.com",
+            "mdp": "8976",
+            "numero": "0612345678",
+            "status": "locataire"
+        },
+        {
+            "id": "2",
+            "nom": "Dupont",
+            "prenom": "Pierre",
+            "email": "pierre.dupont@example.com",
+            "mdp": "3251",
+            "numero": "0123456789",
+            "status": "proprietaire"
+        },
+        {
+            "id": "4",
+            "nom": " Dubois",
+            "prenom": "Camille",
+            "email": "camille.dubois@example.com",
+            "mdp": "7529",
+            "numero": "0320000000",
+            "status": "proprietaire"
+        },
+        {
+            "id": "5",
+            "nom": "Moreau",
+            "prenom": "Alexandre",
+            "email": "alexandre.moreau@example.com",
+            "mdp": "4312",
+            "numero": "0472000000",
+            "status": "locataire"
+        },
+        {
+            "id": "7",
+            "nom": "Dupont",
+            "prenom": "Marie",
+            "email": "marie.dupont@example.com",
+            "mdp": "9367",
+            "numero": "0612345678",
+            "status": "proprietaire"
+        },
+        {
+            "id": "8",
+            "nom": "Martin",
+            "prenom": "Pierre",
+            "email": "pierre.martin@example.com",
+            "mdp": "5089",
+            "numero": "0123456789",
+            "status": "locataire"
+        },
+        {
+            "id": "9",
+            "nom": "Lefevre",
+            "prenom": "Sophie",
+            "email": "sophie.lefevre@example.com",
+            "mdp": "1892",
+            "numero": "0320000000",
+            "status": "locataire"
+        },
+        {
+            "id": "10",
+            "nom": "Dubois",
+            "prenom": "Alexandre",
+            "email": "alexandre.dubois@example.com",
+            "mdp": "6345",
+            "numero": "0472000000",
+            "status": "proprietaire"
+        },
+        {
+            "id": "11",
+            "nom": "Lecomte",
+            "prenom": "Céline",
+            "email": "celine.lecomte@example.com",
+            "mdp": "7218",
+            "numero": "0556000000",
+            "status": "proprietaire"
+        },
+        {
+            "id": "12",
+            "nom": "Gagnon",
+            "prenom": "Émilie",
+            "email": "emilie.gagnon@example.com",
+            "mdp": "1287",
+            "numero": "0645678901",
+            "status": "locataire"
+        },
+        {
+            "id": "13",
+            "nom": "Tremblay",
+            "prenom": "Mathieu",
+            "email": "mathieu.tremblay@example.com",
+            "mdp": "2389",
+            "numero": "0234567890",
+            "status": "proprietaire"
+        },
+        {
+            "id": "14",
+            "nom": "Lavoie",
+            "prenom": "Julie",
+            "email": "julie.lavoie@example.com",
+            "mdp": "3957",
+            "numero": "0412345678",
+            "status": "locataire"
+        },
+        {
+            "id": "15",
+            "nom": "Bergeron",
+            "prenom": "Maxime",
+            "email": "maxime.bergeron@example.com",
+            "mdp": "7501",
+            "numero": "0587654321",
+            "status": "proprietaire"
+        },
+        {
+            "id": "16",
+            "nom": "Roy",
+            "prenom": "Marie",
+            "email": "marie.roy@example.com",
+            "mdp": "9274",
+            "numero": "0612345678",
+            "status": "locataire"
+        },
+        {
+            "id": "17",
+            "nom": "Gagné",
+            "prenom": "Simon",
+            "email": "simon.gagne@example.com",
+            "mdp": "5271",
+            "numero": "0123456789",
+            "status": "proprietaire"
+        },
+        {
+            "id": "18",
+            "nom": "Lévesque",
+            "prenom": "Émilie",
+            "email": "emilie.levesque@example.com",
+            "mdp": "6423",
+            "numero": "0320000000",
+            "status": "proprietaire"
+        },
+        {
+            "id": "19",
+            "nom": "Pelletier",
+            "prenom": "Louis",
+            "email": "louis.pelletier@example.com",
+            "mdp": "8275",
+            "numero": "0472000000",
+            "status": "locataire"
+        },
+        {
+            "id": "20",
+            "nom": "Lemieux",
+            "prenom": "Sophie",
+            "email": "sophie.lemieux@example.com",
+            "mdp": "3128",
+            "numero": "0612345678",
+            "status": "proprietaire"
+        },
+        {
+            "id": "21",
+            "nom": "Gauthier",
+            "prenom": "Pierre",
+            "email": "pierre.gauthier@example.com",
+            "mdp": "7589",
+            "numero": "0123456789",
+            "status": "locataire"
+        },
+        {
+            "id": "22",
+            "nom": "Fortin",
+            "prenom": "Isabelle",
+            "email": "isabelle.fortin@example.com",
+            "mdp": "1893",
+            "numero": "0320000000",
+            "status": "locataire"
+        },
+        {
+            "id": "23",
+            "nom": "Boucher",
+            "prenom": "Mathieu",
+            "email": "mathieu.boucher@example.com",
+            "mdp": "7352",
+            "numero": "0472000000",
+            "status": "proprietaire"
+        },
+        {
+            "id": "24",
+            "nom": "Martin",
+            "prenom": "Catherine",
+            "email": "catherine.martin@example.com",
+            "mdp": "1947",
+            "numero": "0556000000",
+            "status": "proprietaire"
+        },
+        {
+            "id": "25",
+            "nom": "Rousseau",
+            "prenom": "Émilie",
+            "email": "emilie.rousseau@example.com",
+            "mdp": "8321",
+            "numero": "0645678901",
+            "status": "locataire"
+        },
+        {
+            "id": "26",
+            "nom": "Leclerc",
+            "prenom": "Jean",
+            "email": "jean.leclerc@example.com",
+            "mdp": "2398",
+            "numero": "0234567890",
+            "status": "proprietaire"
+        },
+        {
+            "id": "27",
+            "nom": "Morin",
+            "prenom": "Sophie",
+            "email": "sophie.morin@example.com",
+            "mdp": "4953",
+            "numero": "0412345678",
+            "status": "locataire"
+        },
+        {
+            "id": "28",
+            "nom": "Dubeau",
+            "prenom": "Marc",
+            "email": "marc.dubeau@example.com",
+            "mdp": "7102",
+            "numero": "0587654321",
+            "status": "proprietaire"
+        },
+        {
+            "id": "29",
+            "nom": "Bélanger",
+            "prenom": "Isabelle",
+            "email": "isabelle.belanger@example.com",
+            "mdp": "9721",
+            "numero": "0612345678",
+            "status": "locataire"
+        },
+        {
+            "id": "30",
+            "nom": "Tremblay",
+            "prenom": "Patrick",
+            "email": "patrick.tremblay@example.com",
+            "mdp": "5204",
+            "numero": "0123456789",
+            "status": "proprietaire"
+        }
+    ]
+}
