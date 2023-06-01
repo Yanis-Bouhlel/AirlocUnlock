@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="3843c1d9-bb32-4b4f-926f-9b0cc6b83407" name="airlocunlock">
+        <fileTransfer rootFolder="/home/airlocunlock" accessType="SFTP" host="51.210.151.13" port="22" sshConfigId="9659ae74-f0ef-48dc-8f80-202d1483fc84" sshConfig="airlocunlock@51.210.151.13:22 password">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" keepAliveTimeout="0" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>
