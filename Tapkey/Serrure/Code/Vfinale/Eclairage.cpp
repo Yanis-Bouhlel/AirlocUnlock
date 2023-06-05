@@ -7,19 +7,20 @@
 #include "Arduino.h"
 
 
-#define NUM_LEDS 3
-#define DATA_PIN 23
+#define NEO_GRB NEO_GRB
+#define NEO_KHZ800 NEO_KHZ800
 
-Adafruit_NeoPixel pixels(NUM_LEDS, DATA_PIN, NEO_GRB + NEO_KHZ800);
 
 
 Eclairage::Eclairage(int LedPin) {
     this->Pin = LedPin;
-    PinMode();
     this->Light = false;
+    PinMode();
+
 }
 
 void Eclairage::PinMode() {
+    Adafruit_NeoPixel pixels(this->Pin, 10, NEO_GRB + NEO_KHZ800);
     pixels.begin();
 }
 
